@@ -149,3 +149,213 @@
 2025-03-14T05:41:38.101Z [INFO]: Filling checkout form: Magnolia Heidenreich, 91484-9505
 2025-03-14T05:41:38.628Z [INFO]: Order completed successfully
 2025-03-14T05:41:39.011Z [INFO]: Received error message: "Epic sadface: Username and password do not match any user in this service"
+2025-03-14T06:57:46.813Z [INFO]: Navigating to environment: https://www.saucedemo.com/ with language: it
+2025-03-14T06:57:46.816Z [INFO]: Logging in with user: standard_user
+2025-03-14T06:57:48.185Z [INFO]: Login successful
+2025-03-14T06:57:48.347Z [INFO]: First product added to cart
+2025-03-14T06:57:48.366Z [INFO]: Cart count after first addition: 1
+2025-03-14T06:57:48.499Z [INFO]: Second product added to cart
+2025-03-14T06:57:48.522Z [INFO]: Cart count after second addition: 2
+2025-03-14T06:57:48.523Z [INFO]: Navigation and adding products to cart completed successfully!
+2025-03-14T06:57:50.911Z [INFO]: Navigating to environment: https://www.saucedemo.com/ with language: fr
+2025-03-14T06:57:51.180Z [INFO]: Logging in with user: standard_user
+2025-03-14T06:57:51.439Z [INFO]: Login successful
+2025-03-14T06:57:51.462Z [INFO]: Total products found: 6
+2025-03-14T06:57:51.623Z [INFO]: Viewing first product details
+2025-03-14T06:57:51.816Z [INFO]: Navigated back to product list
+2025-03-14T06:57:51.926Z [INFO]: First product added to cart
+2025-03-14T06:57:52.035Z [INFO]: Navigated to cart
+2025-03-14T06:57:52.048Z [INFO]: Navigation through catalog completed successfully
+2025-03-14T06:57:52.772Z [INFO]: Navigating to environment: https://www.saucedemo.com/
+2025-03-14T06:57:53.050Z [INFO]: Logging in with user: standard_user
+2025-03-14T06:57:53.325Z [INFO]: Login successful
+2025-03-14T06:57:53.460Z [INFO]: Added "Sauce Labs Backpack" to cart
+2025-03-14T06:57:53.472Z [INFO]: Cart updated with 1 item
+2025-03-14T06:57:53.583Z [INFO]: Navigated to shopping cart
+2025-03-14T06:57:53.698Z [INFO]: Proceeded to checkout
+2025-03-14T06:57:53.724Z [INFO]: Checkout page is visible
+2025-03-14T06:57:53.726Z [INFO]: Filling checkout form: Kennedy Oberbrunner, 90807-9654
+2025-03-14T06:57:54.084Z [INFO]: Order completed successfully
+2025-03-14T06:57:54.566Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T06:57:54.887Z [INFO]: Attempting successful login with valid credentials
+2025-03-14T06:57:55.144Z [INFO]: Login successful
+2025-03-14T06:57:55.741Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T06:57:56.028Z [INFO]: Attempting login with incorrect username: fake_user
+2025-03-14T06:57:56.268Z [INFO]: Received error message: "Epic sadface: Username and password do not match any user in this service"
+2025-03-14T06:57:56.715Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T06:57:56.989Z [INFO]: Attempting login with incorrect password for user: standard_user
+2025-03-14T06:57:57.195Z [INFO]: Received error message: "Epic sadface: Username and password do not match any user in this service"
+2025-03-14T06:57:57.660Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T06:57:57.928Z [INFO]: Attempting login with empty credentials
+2025-03-14T06:57:58.106Z [INFO]: Received error message: "Epic sadface: Username is required"
+2025-03-14T06:57:58.525Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T06:57:58.803Z [INFO]: Attempting login with locked-out user: locked_out_user
+2025-03-14T06:57:59.034Z [INFO]: Received error message: "Epic sadface: Sorry, this user has been locked out."
+2025-03-14T07:08:17.018Z [INFO]: Navigating to environment: https://www.saucedemo.com/ with language: de
+2025-03-14T07:08:17.019Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:08:17.639Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:08:18.594Z [INFO]: Navigating to environment: https://www.saucedemo.com/
+2025-03-14T07:08:19.430Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:08:20.719Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:08:21.929Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:08:22.871Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:08:23.785Z [INFO]: Navigating to environment: https://www.saucedemo.com/ with language: fr
+2025-03-14T07:08:25.249Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:08:25.820Z [INFO]: Login successful
+2025-03-14T07:08:25.889Z [INFO]: Total products found: 6
+2025-03-14T07:08:26.125Z [INFO]: Viewing first product details
+2025-03-14T07:08:26.344Z [INFO]: Navigated back to product list
+2025-03-14T07:08:26.501Z [INFO]: First product added to cart
+2025-03-14T07:08:26.654Z [INFO]: Navigated to cart
+2025-03-14T07:08:26.695Z [INFO]: Navigation through catalog completed successfully
+2025-03-14T07:08:27.058Z [INFO]: Attempting login with empty credentials
+2025-03-14T07:08:27.317Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:08:27.412Z [INFO]: Attempting login with incorrect password for user: standard_user
+2025-03-14T07:08:28.009Z [INFO]: Received error message: "Epic sadface: Username and password do not match any user in this service"
+2025-03-14T07:08:28.621Z [INFO]: Attempting successful login with valid credentials
+2025-03-14T07:08:29.023Z [INFO]: Attempting login with locked-out user: locked_out_user
+2025-03-14T07:08:29.161Z [INFO]: Attempting login with incorrect username: fake_user
+2025-03-14T07:08:29.241Z [INFO]: Login successful
+2025-03-14T07:08:30.072Z [INFO]: Received error message: "Epic sadface: Username and password do not match any user in this service"
+2025-03-14T07:08:30.699Z [INFO]: Received error message: "Epic sadface: Sorry, this user has been locked out."
+2025-03-14T07:08:31.275Z [INFO]: Login successful
+2025-03-14T07:08:31.455Z [INFO]: Added "Sauce Labs Backpack" to cart
+2025-03-14T07:08:31.488Z [INFO]: Cart updated with 1 item
+2025-03-14T07:08:31.593Z [INFO]: Navigated to shopping cart
+2025-03-14T07:08:31.754Z [INFO]: Proceeded to checkout
+2025-03-14T07:08:31.826Z [INFO]: Checkout page is visible
+2025-03-14T07:08:31.829Z [INFO]: Filling checkout form: Alena Hamill, 51409-1812
+2025-03-14T07:08:32.242Z [INFO]: Order completed successfully
+2025-03-14T07:08:32.520Z [INFO]: Received error message: "Epic sadface: Username is required"
+2025-03-14T07:08:32.857Z [INFO]: Login successful
+2025-03-14T07:08:33.012Z [INFO]: First product added to cart
+2025-03-14T07:08:33.035Z [INFO]: Cart count after first addition: 1
+2025-03-14T07:08:33.194Z [INFO]: Second product added to cart
+2025-03-14T07:08:33.218Z [INFO]: Cart count after second addition: 2
+2025-03-14T07:08:33.220Z [INFO]: Navigation and adding products to cart completed successfully!
+2025-03-14T07:32:23.391Z [INFO]: Navigating to environment: https://www.saucedemo.com/
+2025-03-14T07:32:23.393Z [INFO]: Navigating to environment: https://www.saucedemo.com/ with language: it
+2025-03-14T07:32:23.447Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:32:23.476Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:32:23.523Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:32:23.529Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:32:23.595Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:32:23.618Z [INFO]: Navigating to environment: https://www.saucedemo.com/ with language: en
+2025-03-14T07:32:23.620Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:32:24.489Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:32:24.498Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:32:24.710Z [INFO]: Attempting login with empty credentials
+2025-03-14T07:32:24.768Z [INFO]: Attempting login with locked-out user: locked_out_user
+2025-03-14T07:32:24.768Z [INFO]: Attempting successful login with valid credentials
+2025-03-14T07:32:25.007Z [INFO]: Attempting login with incorrect username: fake_user
+2025-03-14T07:32:25.056Z [INFO]: Attempting login with incorrect password for user: standard_user
+2025-03-14T07:32:25.110Z [INFO]: Login successful
+2025-03-14T07:32:25.192Z [INFO]: Login successful
+2025-03-14T07:32:25.251Z [INFO]: Total products found: 6
+2025-03-14T07:32:25.300Z [INFO]: Added "Sauce Labs Backpack" to cart
+2025-03-14T07:32:25.336Z [INFO]: Cart updated with 1 item
+2025-03-14T07:32:25.351Z [INFO]: Received error message: "Epic sadface: Username is required"
+2025-03-14T07:32:25.475Z [INFO]: Navigated to shopping cart
+2025-03-14T07:32:25.540Z [INFO]: Viewing first product details
+2025-03-14T07:32:25.590Z [INFO]: Received error message: "Epic sadface: Username and password do not match any user in this service"
+2025-03-14T07:32:25.590Z [INFO]: Received error message: "Epic sadface: Username and password do not match any user in this service"
+2025-03-14T07:32:25.609Z [INFO]: Proceeded to checkout
+2025-03-14T07:32:25.634Z [INFO]: Login successful
+2025-03-14T07:32:25.683Z [INFO]: Checkout page is visible
+2025-03-14T07:32:25.687Z [INFO]: Filling checkout form: Cooper Beer, 51433-3415
+2025-03-14T07:32:25.793Z [INFO]: Received error message: "Epic sadface: Sorry, this user has been locked out."
+2025-03-14T07:32:25.807Z [INFO]: Navigated back to product list
+2025-03-14T07:32:25.849Z [INFO]: First product added to cart
+2025-03-14T07:32:25.907Z [INFO]: Cart count after first addition: 1
+2025-03-14T07:32:25.967Z [INFO]: First product added to cart
+2025-03-14T07:32:26.088Z [INFO]: Login successful
+2025-03-14T07:32:26.104Z [INFO]: Second product added to cart
+2025-03-14T07:32:26.143Z [INFO]: Cart count after second addition: 2
+2025-03-14T07:32:26.137Z [INFO]: Navigated to cart
+2025-03-14T07:32:26.150Z [INFO]: Navigation and adding products to cart completed successfully!
+2025-03-14T07:32:26.168Z [INFO]: Navigation through catalog completed successfully
+2025-03-14T07:32:26.305Z [INFO]: Order completed successfully
+2025-03-14T07:41:04.556Z [INFO]: Navigating to environment: https://www.saucedemo.com/ with language: de
+2025-03-14T07:41:04.559Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:41:05.363Z [INFO]: Login successful
+2025-03-14T07:41:05.421Z [INFO]: First product added to cart
+2025-03-14T07:41:05.431Z [INFO]: Cart count after first addition: 1
+2025-03-14T07:41:05.478Z [INFO]: Second product added to cart
+2025-03-14T07:41:05.484Z [INFO]: Cart count after second addition: 2
+2025-03-14T07:41:05.485Z [INFO]: Navigation and adding products to cart completed successfully!
+2025-03-14T07:41:07.925Z [INFO]: Navigating to environment: https://www.saucedemo.com/ with language: fr
+2025-03-14T07:41:08.131Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:41:08.252Z [INFO]: Login successful
+2025-03-14T07:41:08.256Z [INFO]: Total products found: 6
+2025-03-14T07:41:08.298Z [INFO]: Viewing first product details
+2025-03-14T07:41:08.339Z [INFO]: Navigated back to product list
+2025-03-14T07:41:08.383Z [INFO]: First product added to cart
+2025-03-14T07:41:08.440Z [INFO]: Navigated to cart
+2025-03-14T07:41:08.444Z [INFO]: Navigation through catalog completed successfully
+2025-03-14T07:41:08.841Z [INFO]: Navigating to environment: https://www.saucedemo.com/
+2025-03-14T07:41:09.048Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:41:09.162Z [INFO]: Login successful
+2025-03-14T07:41:09.196Z [INFO]: Added "Sauce Labs Backpack" to cart
+2025-03-14T07:41:09.202Z [INFO]: Cart updated with 1 item
+2025-03-14T07:41:09.259Z [INFO]: Navigated to shopping cart
+2025-03-14T07:41:09.310Z [INFO]: Proceeded to checkout
+2025-03-14T07:41:09.322Z [INFO]: Checkout page is visible
+2025-03-14T07:41:09.324Z [INFO]: Filling checkout form: Twila Graham-Cummerata, 70024-4706
+2025-03-14T07:41:09.465Z [INFO]: Order completed successfully
+2025-03-14T07:41:09.709Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:41:09.947Z [INFO]: Attempting successful login with valid credentials
+2025-03-14T07:41:10.088Z [INFO]: Login successful
+2025-03-14T07:41:10.341Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:41:10.601Z [INFO]: Attempting login with incorrect username: fake_user
+2025-03-14T07:41:10.711Z [INFO]: Received error message: "Epic sadface: Username and password do not match any user in this service"
+2025-03-14T07:41:10.992Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:41:11.231Z [INFO]: Attempting login with incorrect password for user: standard_user
+2025-03-14T07:41:11.355Z [INFO]: Received error message: "Epic sadface: Username and password do not match any user in this service"
+2025-03-14T07:41:11.590Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:41:11.820Z [INFO]: Attempting login with empty credentials
+2025-03-14T07:41:11.948Z [INFO]: Received error message: "Epic sadface: Username is required"
+2025-03-14T07:41:12.229Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:41:12.440Z [INFO]: Attempting login with locked-out user: locked_out_user
+2025-03-14T07:41:12.545Z [INFO]: Received error message: "Epic sadface: Sorry, this user has been locked out."
+2025-03-14T07:41:16.039Z [INFO]: Navigating to environment: https://www.saucedemo.com/ with language: fr
+2025-03-14T07:41:16.044Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:41:17.367Z [INFO]: Login successful
+2025-03-14T07:41:17.516Z [INFO]: First product added to cart
+2025-03-14T07:41:17.528Z [INFO]: Cart count after first addition: 1
+2025-03-14T07:41:17.668Z [INFO]: Second product added to cart
+2025-03-14T07:41:17.681Z [INFO]: Cart count after second addition: 2
+2025-03-14T07:41:17.682Z [INFO]: Navigation and adding products to cart completed successfully!
+2025-03-14T07:41:20.123Z [INFO]: Navigating to environment: https://www.saucedemo.com/ with language: en
+2025-03-14T07:41:20.410Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:41:20.674Z [INFO]: Login successful
+2025-03-14T07:41:20.686Z [INFO]: Total products found: 6
+2025-03-14T07:41:20.832Z [INFO]: Viewing first product details
+2025-03-14T07:41:21.035Z [INFO]: Navigated back to product list
+2025-03-14T07:41:21.146Z [INFO]: First product added to cart
+2025-03-14T07:41:21.260Z [INFO]: Navigated to cart
+2025-03-14T07:41:21.275Z [INFO]: Navigation through catalog completed successfully
+2025-03-14T07:41:22.058Z [INFO]: Navigating to environment: https://www.saucedemo.com/
+2025-03-14T07:41:22.318Z [INFO]: Logging in with user: standard_user
+2025-03-14T07:41:22.613Z [INFO]: Login successful
+2025-03-14T07:41:22.748Z [INFO]: Added "Sauce Labs Backpack" to cart
+2025-03-14T07:41:22.765Z [INFO]: Cart updated with 1 item
+2025-03-14T07:41:22.895Z [INFO]: Navigated to shopping cart
+2025-03-14T07:41:23.033Z [INFO]: Proceeded to checkout
+2025-03-14T07:41:23.057Z [INFO]: Checkout page is visible
+2025-03-14T07:41:23.059Z [INFO]: Filling checkout form: Rosetta Towne, 48792
+2025-03-14T07:41:23.407Z [INFO]: Order completed successfully
+2025-03-14T07:41:23.892Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:41:24.165Z [INFO]: Attempting successful login with valid credentials
+2025-03-14T07:41:24.413Z [INFO]: Login successful
+2025-03-14T07:41:25.020Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:41:25.346Z [INFO]: Attempting login with incorrect username: fake_user
+2025-03-14T07:41:25.600Z [INFO]: Received error message: "Epic sadface: Username and password do not match any user in this service"
+2025-03-14T07:41:26.031Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:41:26.365Z [INFO]: Attempting login with incorrect password for user: standard_user
+2025-03-14T07:41:26.630Z [INFO]: Received error message: "Epic sadface: Username and password do not match any user in this service"
+2025-03-14T07:41:27.060Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:41:27.339Z [INFO]: Attempting login with empty credentials
+2025-03-14T07:41:27.569Z [INFO]: Received error message: "Epic sadface: Username is required"
+2025-03-14T07:41:28.014Z [INFO]: Navigating to SauceDemo login page
+2025-03-14T07:41:28.302Z [INFO]: Attempting login with locked-out user: locked_out_user
+2025-03-14T07:41:28.520Z [INFO]: Received error message: "Epic sadface: Sorry, this user has been locked out."
