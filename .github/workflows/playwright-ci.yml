@@ -9,16 +9,16 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-22.04  # Usamos un runner específico para estabilidad
+    runs-on: ubuntu-22.04
     timeout-minutes: 10
     env:
-      ACTIONS_STEP_DEBUG: true  # Habilita logs detallados en GitHub Actions
+      ACTIONS_STEP_DEBUG: true
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Cleanup GitHub Actions Cache  # Limpia caché antes de instalar dependencias
+      - name: Cleanup GitHub Actions Cache
         run: rm -rf ~/.npm ~/.cache
 
       - name: Setup Node.js
@@ -33,11 +33,12 @@ jobs:
         run: npx playwright install --with-deps --force
 
       - name: Run Playwright tests
-        run: npx playwright test --reporter=html --trace on --project=chromium  # Habilita trazas y reportes en HTML
+        run: npx playwright test --reporter=html --trace on --project=chromium
 
-      - name: Upload Playwright Test Results
-        if: failure()
-        uses: actions/upload-artifact@v2
-        with:
-          name: playwright-results
-          path: playwright-report
+      # 🔹 Comentar esta sección para que no bloquee la ejecución
+      # - name: Upload Playwright Test Results
+      #   if: failure()
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: playwright-results
+      #     path: playwright-report
