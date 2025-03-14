@@ -12,11 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      ACTIONS_STEP_DEBUG: true
+      ACTIONS_STEP_DEBUG: true  # Habilita logs detallados para depuración
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
+      - name: Cleanup GitHub Actions Cache  # 💡 Limpieza de caché antes de instalar dependencias
+        run: rm -rf ~/.npm ~/.cache
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -32,9 +35,10 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test --reporter=html
 
+      # 🔹 Cambiamos a una versión estable de upload-artifact
       - name: Upload test artifacts (screenshots, videos, traces)
         if: failure()
-        uses: actions/upload-artifact@v2.3.1
+        uses: actions/upload-artifact@v2.3.1  # ⚠️ Antes era @v3
         with:
           name: playwright-results
           path: |
