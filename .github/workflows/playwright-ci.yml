@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      ACTIONS_STEP_DEBUG: true  # Habilita logs detallados en GitHub Actions
+      ACTIONS_STEP_DEBUG: true
 
     steps:
       - name: Checkout repository
@@ -27,18 +27,14 @@ jobs:
         run: npm install
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps --force  # Fuerza la instalación para evitar fallos
+        run: npx playwright install --with-deps --force
 
       - name: Run Playwright tests
         run: npx playwright test --reporter=html
 
       - name: Upload test artifacts (screenshots, videos, traces)
         if: failure()
-<<<<<<< HEAD
-        uses: actions/upload-artifact@v2
-=======
-        uses: actions/upload-artifact@v3.1.2  # Usa una versión específica de upload-artifact
->>>>>>> f901dc9 (Fix GitHub Actions workflow)
+        uses: actions/upload-artifact@v3.1.2
         with:
           name: playwright-results
           path: |
