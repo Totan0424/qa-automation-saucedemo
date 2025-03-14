@@ -9,16 +9,16 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # 💡 Probamos una versión específica de Ubuntu en lugar de ubuntu-latest
     timeout-minutes: 10
     env:
-      ACTIONS_STEP_DEBUG: true  # Habilita logs detallados para depuración
+      ACTIONS_STEP_DEBUG: true  # Habilita logs detallados en GitHub Actions
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Cleanup GitHub Actions Cache  # 💡 Limpieza de caché antes de instalar dependencias
+      - name: Cleanup GitHub Actions Cache  # 🔹 Eliminamos caché antes de instalar dependencias
         run: rm -rf ~/.npm ~/.cache
 
       - name: Setup Node.js
@@ -35,12 +35,12 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test --reporter=html
 
-      # 🔹 Cambiamos a una versión estable de upload-artifact
-      - name: Upload test artifacts (screenshots, videos, traces)
-        if: failure()
-        uses: actions/upload-artifact@v2
-        with:
-          name: playwright-results
-          path: |
-            playwright-report
-            test-results
+      # 🔹 Upload-artifact temporalmente desactivado
+      # - name: Upload test artifacts (screenshots, videos, traces)
+      #   if: failure()
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: playwright-results
+      #     path: |
+      #       playwright-report
+      #       test-results
