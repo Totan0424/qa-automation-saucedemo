@@ -36,12 +36,13 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test --reporter=html --trace on  # 💡 Habilita reportes HTML y trazas
 
-      - name: Upload test artifacts (screenshots, videos, traces)
-        if: failure()
-        uses: actions/upload-artifact@v2  # 💡 Usamos una versión estable
-        with:
-          name: playwright-results
-          path: |
-            playwright-report
-            test-results
-            traces
+# - name: Upload test artifacts (screenshots, videos, traces)
+#   if: failure()
+#   uses: actions/upload-artifact@v2
+#   with:
+#     name: playwright-results
+#     path: |
+#       playwright-report
+#       test-results
+#       traces
+
