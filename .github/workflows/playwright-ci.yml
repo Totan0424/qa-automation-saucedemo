@@ -30,7 +30,7 @@ jobs:
         run: npm install
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps --force
+        run: npx playwright install --with-deps
 
       - name: Run Playwright tests
         run: npx playwright test --reporter=html --trace on --project=chromium
