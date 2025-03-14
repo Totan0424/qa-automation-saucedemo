@@ -1,0 +1,28 @@
+{
+    "environments": {
+        "production": "https://www.saucedemo.com/",
+        "staging": "https://staging.saucedemo.com/",
+        "dev": "https://dev.saucedemo.com/"
+    },
+    
+    "languages": ["en", "es", "fr", "de", "it"],
+    
+    "validUser": {
+        "username": "standard_user",
+        "password": "secret_sauce"
+    },
+    "lockedOutUser": {
+        "username": "locked_out_user",
+        "password": "secret_sauce"
+    },
+    "invalidUser": {
+        "username": "fake_user",
+        "password": "wrong_pass"
+    },
+
+    "errorMessages": {
+        "invalidCredentials": "Epic sadface: Username and password do not match any user in this service",
+        "requiredUsername": "Epic sadface: Username is required",
+        "lockedOut": "Epic sadface: Sorry, this user has been locked out."
+    }
+}

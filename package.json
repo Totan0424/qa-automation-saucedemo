@@ -1,0 +1,25 @@
+{
+  "name": "qa-automation-saucedemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "coverage": "nyc --reporter=html --reporter=text npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10",
+    "istanbul-reports": "^3.1.7",
+    "nyc": "^17.1.0",
+    "supertest": "^7.0.0",
+    "v8-to-istanbul": "^9.3.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "winston": "^3.17.0"
+  }
+}
