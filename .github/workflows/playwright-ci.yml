@@ -38,7 +38,7 @@ jobs:
       # 🔹 Cambiamos a una versión estable de upload-artifact
       - name: Upload test artifacts (screenshots, videos, traces)
         if: failure()
-        uses: actions/upload-artifact@v2.3.1  # ⚠️ Antes era @v3
+        uses: actions/upload-artifact@v2
         with:
           name: playwright-results
           path: |
